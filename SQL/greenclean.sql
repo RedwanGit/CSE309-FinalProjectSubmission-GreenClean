@@ -3,13 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 30, 2024 at 05:13 PM
+-- Generation Time: Dec 30, 2024 at 07:54 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
-
--- Create and use the database
-CREATE DATABASE IF NOT EXISTS greenclean;
-USE greenclean;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -83,8 +79,7 @@ INSERT INTO `orders` (`id`, `user_id`, `total_amount`, `status`, `created_at`, `
 (26, 1, 8.49, 'confirmed', '2024-12-29 15:15:38', '2024-12-29 16:41:56', 'House no -1, Road -1', 'Dhaka', 'ctg', '12344'),
 (27, 1, 9.99, 'confirmed', '2024-12-29 15:18:54', '2024-12-29 16:41:53', 'House no -1, Road -1', 'Dhaka', 'ctg', '12344'),
 (28, 1, 13.99, 'confirmed', '2024-12-29 16:40:44', '2024-12-29 16:41:25', 'House no -1, Road -1', 'Dhaka', 'Ctg', '12345'),
-(31, 1, 47.97, 'confirmed', '2024-12-30 14:20:20', '2024-12-30 14:20:44', 'House no -1, Road -1', 'Dhaka', 'Ctg', '12344'),
-(32, 1, NULL, 'pending', '2024-12-30 15:38:04', '2024-12-30 16:08:26', NULL, NULL, NULL, NULL);
+(31, 1, 47.97, 'confirmed', '2024-12-30 14:20:20', '2024-12-30 14:20:44', 'House no -1, Road -1', 'Dhaka', 'Ctg', '12344');
 
 -- --------------------------------------------------------
 
