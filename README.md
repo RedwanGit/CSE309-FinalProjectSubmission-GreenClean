@@ -4,15 +4,13 @@
 
 1. **Locate the SQL File**:
    - Navigate to the `SQL` folder in this project directory.
-   - You will find the database file (e.g., `greenclean.sql`).
+   - You will find the database file (`greenclean.sql`).
 
 2. **Import the Database**:
    - Open **phpMyAdmin** in your browser.
-   - Create a new database (e.g., `greenclean`) or use an existing one.
-   - Select the database you created.
    - Click on the **Import** tab in the phpMyAdmin interface.
-   - Click on **Choose File**, and select the SQL file from the `sql` folder.
-   - Click on **Go** to import the file. This will set up all the necessary tables and data.
+   - Click on **Choose File**, and select the SQL file from the `SQL` folder.
+   - Click on **Go** to import the file. This will set up all the necessary database, tables and data.
 
 ## Default Credentials
 
