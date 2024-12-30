@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #1a202c;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 4rem);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.hero {
+    padding: 3rem 0;
+    text-align: center;
+    background: linear-gradient(rgba(26, 32, 44, 0.8), rgba(26, 32, 44, 0.9));
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 30vh;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #48bb78;
+    font-weight: 600;
+}
+
+.hero-subtitle {
+    font-size: 1.125rem;
+    color: #cbd5e0;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.features {
+    padding: 2rem 0;
+    flex-grow: 1;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.feature-card {
+    background-color: #2d3748;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-image img {
+    width: 100%;
+    height: auto;
+}
+
+.feature-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-content h2 {
+    color: #48bb78;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.feature-content p {
+    color: #cbd5e0;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+.footer {
+    background-color: #2d3748;
+    color: #cbd5e0;
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+@media (min-width: 1024px) {
+    .main {
+        padding-top: 5rem;
+    }
+
+    .hero {
+        min-height: 35vh;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .feature-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-height: 700px) {
+    .hero {
+        min-height: 25vh;
+        padding: 2rem 0;
+    }
+
+    .features {
+        padding: 1.5rem 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .feature-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

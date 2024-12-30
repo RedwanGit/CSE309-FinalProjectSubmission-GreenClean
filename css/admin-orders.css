@@ -1,0 +1,41 @@
+.message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    z-index: 1000;
+    animation: slideIn 0.5s ease-out;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.success-message {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.error-message {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.shipping-info {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.shipping-info address {
+    font-style: normal;
+    margin: 0;
+}
+
+.shipping-label {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 3px;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
