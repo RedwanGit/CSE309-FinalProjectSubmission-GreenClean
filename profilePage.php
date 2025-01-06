@@ -99,8 +99,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/profilePage.css">
+    <link rel="stylesheet" href="css/navbar.css?v=3">
+    <link rel="stylesheet" href="css/themes.css?v=3">
+    <link rel="stylesheet" href="css/profilePage.css?v=3">
     <title>GreenClean - Profile</title>
 </head>
 <body>
@@ -136,5 +137,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <script src="js/navbar.js"></script>
     <script src="js/profilePage.js"></script>
+    <script src="js/themeManager.js"></script>
 </body>
 </html>

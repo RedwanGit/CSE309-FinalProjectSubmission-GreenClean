@@ -40,7 +40,6 @@ formData.append('product_id', productId);
 formData.append('quantity', '1');
 
 try {
-    // First check stock
     const stockCheck = await fetch(`check_stock.php?product_id=${productId}&quantity=1`);
     const stockData = await stockCheck.json();
     

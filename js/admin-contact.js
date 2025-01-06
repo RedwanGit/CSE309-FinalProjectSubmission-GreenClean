@@ -19,14 +19,12 @@ function hideDeleteConfirm() {
     document.getElementById('deleteConfirmDialog').classList.remove('active');
 }
 
-// Close dialog when clicking outside
 document.getElementById('deleteConfirmDialog').addEventListener('click', function(e) {
     if (e.target === this) {
         hideDeleteConfirm();
     }
 });
 
-// Close dialog with Escape key
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape' && document.getElementById('deleteConfirmDialog').classList.contains('active')) {
         hideDeleteConfirm();

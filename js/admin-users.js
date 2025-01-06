@@ -47,7 +47,6 @@ function initializeDeleteButtons() {
         });
     });
 
-    // Close dialog when clicking outside
     confirmDialog.addEventListener('click', function(e) {
         if (e.target === confirmDialog) {
             confirmDialog.classList.remove('active');

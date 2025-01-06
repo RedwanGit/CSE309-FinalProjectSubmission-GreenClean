@@ -23,7 +23,6 @@ document.getElementById('profileForm').addEventListener('submit', async function
         notification.textContent = result.message;
         notification.className = 'notification ' + (result.success ? 'success' : 'error');
         
-        // Auto-hide successful notifications after 3 seconds
         if (result.success) {
             setTimeout(() => {
                 notification.textContent = '';
@@ -31,9 +30,8 @@ document.getElementById('profileForm').addEventListener('submit', async function
             }, 3000);
         }
 
-        // If successful, update the form fields
         if (result.success) {
-            document.getElementById('password').value = ''; // Clear password field
+            document.getElementById('password').value = ''; 
         }
     } catch (error) {
         console.error('Error:', error);

@@ -10,8 +10,9 @@ header('Content-Type: text/html; charset=UTF-8');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenClean - Navbar</title>
-    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/themes.css?v=3">
+    <link rel="stylesheet" href="css/navbar.css?v=3">
 </head>
 <body>
     <nav class="navbar">
@@ -52,6 +53,9 @@ header('Content-Type: text/html; charset=UTF-8');
                             <?php endif; ?>
                     </div>
                 </div>
+                <button class="theme-toggle">
+                    <i class="fas fa-moon icon"></i>
+                </button>
                 <a href="cartPage.php" class="cart-link">
                     <i class="fas fa-shopping-cart icon"></i>
                 </a>

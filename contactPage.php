@@ -8,6 +8,7 @@ require_once 'includes/config.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenClean - Contact Us</title>
+    <link rel="stylesheet" href="css/themes.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/contactPage.css">
 </head>
@@ -58,5 +59,6 @@ require_once 'includes/config.php';
 
     <script src="js/navbar.js"></script>
     <script src="js/contactPage.js"></script>
+    <script src="js/themeManager.js"></script>
 </body>
 </html>

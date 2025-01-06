@@ -47,8 +47,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $isLoggedIn) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Your shopping cart at GreenClean - Review and checkout your eco-friendly cleaning products">
     <title>GreenClean - Shopping Cart</title>
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/cartPage.css">
+    <link rel="stylesheet" href="css/navbar.css?v=2">
+    <link rel="stylesheet" href="css/themes.css?v=2">
+    <link rel="stylesheet" href="css/cartPage.css?v=2">
 </head>
 <body>
     <?php include 'navbar.php'; ?>
@@ -165,5 +166,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $isLoggedIn) {
     </footer>
 
     <script src="js/cartPage.js"></script>
+    <script src="js/themeManager.js"></script>
 </body>
 </html>

@@ -140,7 +140,6 @@ function deleteProduct(id) {
 }
 
 function initializeNotifications() {
-    // Auto-hide existing notifications
     const notifications = document.querySelectorAll('.notification');
     notifications.forEach(notification => {
         setTimeout(() => {

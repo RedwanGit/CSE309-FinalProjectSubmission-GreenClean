@@ -52,7 +52,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax_add_to_cart'])) 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Clean Products</title>
-    <link rel="stylesheet" href="css/productPage.css?v=1.1">
+    <link rel="stylesheet" href="css/themes.css?v=3">
+    <link rel="stylesheet" href="css/productPage.css?v=3">
 </head>
 <body>
     <?php include 'navbar.php'; ?>
@@ -103,5 +104,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax_add_to_cart'])) 
     <footer class="footer">© 2024 Green Clean. All rights reserved.</footer>
     
     <script src="js/productPage.js"></script>
+    <script src="js/themeManager.js"></script>
 </body>
 </html>

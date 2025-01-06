@@ -5,7 +5,6 @@ function initializeDropdown() {
             const dropdownContent = this.querySelector('.dropdown-content');
             dropdownContent.classList.toggle('show');
             
-            // Close dropdown when clicking outside
             document.addEventListener('click', function(e) {
                 if (!accountDropdown.contains(e.target)) {
                     dropdownContent.classList.remove('show');
@@ -15,7 +14,6 @@ function initializeDropdown() {
     }
 }
 
-// Update the DOMContentLoaded event listener
 document.addEventListener('DOMContentLoaded', () => {
     highlightActivePage();
     initializeDropdown();

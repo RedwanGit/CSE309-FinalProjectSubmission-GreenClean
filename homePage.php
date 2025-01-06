@@ -9,7 +9,8 @@ require_once 'includes/config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenClean - Home</title>
     <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/homePage.css">
+    <link rel="stylesheet" href="css/homePage.css?v=2">
+    <link rel="stylesheet" href="css/themes.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
 </head>
 <body>
@@ -62,5 +63,6 @@ require_once 'includes/config.php';
         </div>
     </footer>
     <script src="js/navbar.js"></script>
+    <script src="js/themeManager.js" defer></script>
 </body>
 </html>

@@ -64,7 +64,8 @@ foreach ($orders as $order) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenClean - My Orders</title>
-    <link rel="stylesheet" href="css/ordersPage.css">
+    <link rel="stylesheet" href="css/themes.css?v=2">
+    <link rel="stylesheet" href="css/ordersPage.css?v=2">
 </head>
 <body>
     <?php include 'navbar.php'; ?>
@@ -129,6 +130,8 @@ foreach ($orders as $order) {
     <footer class="footer">
         <p>&copy; <?php echo date('Y'); ?> GreenClean. All rights reserved.</p>
     </footer>
+
+    <script src="js/themeManager.js"></script>
 </body>
 
 </html>
